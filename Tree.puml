@@ -1,0 +1,32 @@
+@startuml
+actor "Marek Kowalski"
+actor "Ewa Kowalska"
+actor "Krystyna Dąbrowska"
+
+ "Krystyna Dąbrowska" -->  "Ewa Kowalska": child of
+actor "Anna Dąbrowska"
+
+ "Anna Dąbrowska" -->  "Ewa Kowalska": child of
+actor "Andrzej Kowalski"
+
+ "Andrzej Kowalski" -->  "Ewa Kowalska": child of
+actor "Alicja Wiśniewska"
+
+ "Alicja Wiśniewska" -->  "Anna Dąbrowska": child of
+actor "Tomasz Dąbrowski"
+
+ "Tomasz Dąbrowski" -->  "Anna Dąbrowska": child of
+actor "Kacper Kowalski"
+
+ "Kacper Kowalski" -->  "Andrzej Kowalski": child of
+actor "Joanna Nowak"
+
+ "Joanna Nowak" -->  "Andrzej Kowalski": child of
+actor "Elżbieta Kowalska"
+
+ "Elżbieta Kowalska" -->  "Kacper Kowalski": child of
+actor "Jan Kowalski"
+
+ "Jan Kowalski" -->  "Kacper Kowalski": child of
+
+@enduml
